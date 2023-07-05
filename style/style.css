@@ -1,0 +1,178 @@
+:root{
+    --spanpadrão: rgb(92, 148, 52);
+}
+.titulo{
+    font-family: 'quicksandbold';
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text{
+    font-size: 1.6em;
+    font-family: 'quicksandbold';
+}
+
+.paragrafo{
+    font-family: 'quicksandbold';
+    color: white;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: linear-gradient(to bottom, rgb(26, 84, 50),rgb(13, 40, 24));
+    font-size: 100%;
+    color: white;
+    margin-top: 25px;
+    margin-left: 40px; /*Para fixar tudo no meio*/
+    margin-right: 40px;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.neruslogo{
+    width: 200px;
+    height: 70px;
+}
+#cabecalho-menu{
+    display:flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-right: 35%;
+    padding: 15px;
+}
+.cabecalho-menu-item{
+    font-family: 'quicksandbold';
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+#cabecalho-menu2{
+    display: flex;
+    gap: 45px;
+    padding: 15px;
+}
+.cabecalho-menu-item2{
+    font-family: 'quicksandbold';
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
+#primeiranav{
+  display: flex;
+align-items: flex-start;
+    
+}
+main{
+    margin-top: 100px;
+}
+.conteudo-principal{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    
+}
+
+.primeiro-conteudo > h1{
+    font-size: 90px;
+    line-height: 10px;
+    /*font-family: 'quicksandbold';*/
+    
+}
+
+.primeiro-conteudo > p{
+    width: 65%;
+    line-height: 25px;
+    font-size: 1.7em;
+    font-family: 'quicksandbold';
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+.nerus-imagem{
+    position: relative;
+    top: -80px;
+    height: 600px;
+    width: auto;
+    margin-right: 10%;
+    
+ 
+}
+
+span{
+    color:var(--spanpadrão);
+}
+
+#submit{
+    font-family: 'robotob';
+    font-size: 17px;
+    height: 50px;
+    width: 15%;
+    color:white;
+    background-color:  #5c9434;
+
+}
+#submit:hover{
+    cursor: pointer;
+    
+}
+
+.vamos-começar{
+    font-size: 0.9em;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 15px;
+    border: none;
+    background-color: var(--spanpadrão);
+}
+.conteudo-secundario{
+display: flex;
+background: linear-gradient(to bottom, rgb(32, 49, 36), rgba(255, 255, 255, 0.13));
+margin-top: 13%;
+height: 2000px;
+padding: 25px;
+box-shadow: 1.5px 1.5px rgba(41, 41, 41, 0.418);
+}
+.titulo-text{
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+
+}
+.text2{
+    width: 19%;
+    margin-left: 5%;
+
+}
+.imagem-conteudo-secundario{
+    width: 650px;
+    height: auto;
+    margin-left: 19%;
+}
+.player{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    margin: auto;
+    padding: 25px;
+   
+    top: 100px;
+}
+.center{
+    position: relative;
+    left: 450px;
+}
